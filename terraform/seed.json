@@ -1,0 +1,112 @@
+{
+  "coffee-demo-products": [
+    {
+      "PutRequest": {
+        "Item": {
+          "category": { "S": "espresso" },
+          "product_id": { "S": "americano" },
+          "name": { "S": "Americano" },
+          "price_in_cents": { "N": "350" },
+          "description": { "S": "Espresso with hot water for a smooth, bold flavor" },
+          "size": { "S": "medium" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "category": { "S": "espresso" },
+          "product_id": { "S": "vanilla-latte" },
+          "name": { "S": "Vanilla Latte" },
+          "price_in_cents": { "N": "550" },
+          "description": { "S": "Espresso with steamed milk and vanilla syrup" },
+          "size": { "S": "large" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "category": { "S": "espresso" },
+          "product_id": { "S": "caramel-macchiato" },
+          "name": { "S": "Caramel Macchiato" },
+          "price_in_cents": { "N": "595" },
+          "description": { "S": "Espresso layered with vanilla milk and caramel drizzle" },
+          "size": { "S": "large" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "category": { "S": "cold-brew" },
+          "product_id": { "S": "classic-cold-brew" },
+          "name": { "S": "Classic Cold Brew" },
+          "price_in_cents": { "N": "450" },
+          "description": { "S": "Slow-steeped for 20 hours, served over ice" },
+          "size": { "S": "large" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "category": { "S": "cold-brew" },
+          "product_id": { "S": "mocha-cold-brew" },
+          "name": { "S": "Mocha Cold Brew" },
+          "price_in_cents": { "N": "525" },
+          "description": { "S": "Cold brew with chocolate and oat milk" },
+          "size": { "S": "large" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "category": { "S": "drip" },
+          "product_id": { "S": "house-blend" },
+          "name": { "S": "House Blend" },
+          "price_in_cents": { "N": "275" },
+          "description": { "S": "Medium roast with notes of chocolate and walnut" },
+          "size": { "S": "medium" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "category": { "S": "drip" },
+          "product_id": { "S": "dark-roast" },
+          "name": { "S": "Dark Roast" },
+          "price_in_cents": { "N": "275" },
+          "description": { "S": "Full-bodied dark roast with smoky finish" },
+          "size": { "S": "medium" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "category": { "S": "tea" },
+          "product_id": { "S": "chai-latte" },
+          "name": { "S": "Chai Latte" },
+          "price_in_cents": { "N": "475" },
+          "description": { "S": "Spiced black tea with steamed milk" },
+          "size": { "S": "medium" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "category": { "S": "tea" },
+          "product_id": { "S": "matcha-latte" },
+          "name": { "S": "Matcha Latte" },
+          "price_in_cents": { "N": "525" },
+          "description": { "S": "Stone-ground matcha whisked with steamed milk" },
+          "size": { "S": "large" }
+        }
+      }
+    }
+  ]
+}
